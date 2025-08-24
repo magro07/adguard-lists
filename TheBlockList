@@ -1,0 +1,52 @@
+! Title: Max – DNS Rules (Allow + Block)
+! Description: Ausnahmen für Sailaway/Steam, Block für AfD-Domains
+! Homepage: https://github.com/magro07/adguard-lists
+! License: CC0-1.0
+! Expires: 7 days
+! Version: 2025-08-24
+
+! ===== Allow (Ausnahmen) =====
+@@||sailaway.world^$important
+! (optional, nur falls du direkt was von der Dev-Seite brauchst)
+@@||orbcreation.com^$important
+
+! Falls du Sailaway III über Steam installierst/aktualisierst:
+@@||steampowered.com^$important
+@@||steamcommunity.com^$important
+@@||steamstatic.com^$important
+@@||steamcontent.com^$important
+@@||steamserver.net^$important
+@@||steamusercontent.com^$important
+@@||steam-chat.com^$important
+@@||steamgames.com^$important
+! Content-Delivery für Steam-Downloads (gezielt, NICHT global akamaihd.net whitelisten)
+@@||steamcdn-a.akamaihd.net^$important
+
+! ===== Block (AfD / JA) =====
+||afd.de^
+||afdbundestag.de^
+||afdkompakt.de^
+||afd.tv^
+||afd-fanshop.de^
+||wir-lieben-deutschland.de^
+||plakatspendenshop.de^
+||spenden.afd.de^
+||afd-bw.de^
+||afdbayern.de^
+||afd.berlin^
+||afd-brandenburg.de^
+||afd-bremen.de^
+||afd-hamburg.de^
+||afd-hessen.de^
+||afd-mv.de^
+||afd-niedersachsen.de^
+||afd.nrw^
+||alternative-rlp.de^
+||afd.saarland^
+||afdsachsen.de^
+||afd-lsa.de^
+||afd-sh.de^
+||afd-thueringen.de^
+||jungealternative.net^
+||jungealternative.berlin^
+||ja-niedersachsen.online^
